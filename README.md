@@ -13,3 +13,5 @@ General https://reactnative.dev/docs
 
 ## Todo
 test setting up the repo for collaboration, api calls, useContext hook, unit tests and general stlying guidelines/practices
+
+Also create a "production build" and see how the deploying process works with native
