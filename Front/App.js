@@ -12,14 +12,10 @@ export default function App() {
 }
 
 const send = async () => {
-  const body = {
-    hello:"World",
-    hi:"mom"
-  }
   await fetch('http://87.100.200.233:3001/', {
-  }).then((res) => {
-    console.log(res)
-  }).catch((err) => {
+  }).then(res=>res.json())
+  .then(data=> { console.log(data); })
+  .catch((err) => {
     console.log(err)
   })
 }
