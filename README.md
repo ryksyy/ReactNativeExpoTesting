@@ -12,4 +12,4 @@ Navigation https://reactnavigation.org/docs
 General https://reactnative.dev/docs
 
 ## Todo
-Test api calls, useContext hook and general stlying guidelines/practices
+test setting up the repo for collaboration, api calls, useContext hook and general stlying guidelines/practices
